@@ -1,0 +1,65 @@
+
+header h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+header{
+    padding: 35px;
+    background-color: rgb(26, 129, 147);
+}
+nav a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+    float: right;
+}
+nav{
+    background-color: rgb(100, 12, 12);
+    overflow: hidden;
+}
+div h1{
+    color: rgb(10, 7, 7);
+    text-align: center;
+}
+* 
+{
+    box-sizing: border-box;
+}
+  
+form.example input[type=text]
+{
+    margin-top: 50px;
+    margin-left: 30%;
+    padding: 10px;
+    font-size: 17px;
+    border: 5px solid rgb(100, 12, 12);
+    float: left;
+    width: 40%;
+    background: #f1f1f1;
+}
+form.example button 
+{
+    margin-top: 50px;
+    float: left;
+    width: 5%;
+    padding: 25px;
+    background: rgb(26, 129, 147);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+form.example button:hover {
+    background: #0b7dda;
+}
+  
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
