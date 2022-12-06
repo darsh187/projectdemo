@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>signin</title>
 </head>
 <body>
+    <div class="main">
     <div class="register">
+        <h3>Register here</h3>
         <form>
             <table>
                 <tr>
@@ -93,31 +95,48 @@
                 </tr>
                 <tr>
                     <td>
-                        profession:
-                    </td>
-                    <td>
-                        <input type="checkbox" class="button">Plumber
-                        <input type="checkbox" class="button">Electritian
-                        <input type="checkbox" class="button">Car painter
-                        <input type="checkbox" class="button">House keeper
-                        <input type="checkbox" class="button">Wendor
-                        <input type="checkbox" class="button">Tailor
-                        <input type="checkbox" class="button">Painter
-                        <input type="checkbox" class="button">Blacksmith
-                        <input type="checkbox" class="button">Cook
-                        <input type="checkbox" class="button">NA
+                        <button type="button" class="submit">submit</button>
                     </td>
                 </tr>
             </table>
         </form>
+    </div>
     </div>
     <style>
         body{
             margin: 0;
             padding: 0;
             font-family: Arial, Helvetica, sans-serif;
-            background-image: url(istockphoto-1250491739-1024x1024.jpg);
+            background-image: url(workerimg.png);
             background-size: cover;
+        }
+        div.main{
+            width: 400px;
+            margin: 100px auto 0px auto;
+        }
+        div.register{
+            background-color: rgba(0,0,0,.5);
+            width: 100%;
+            font-size: 18px;
+            border-radius: 10px;
+            border: 1px solid rgba(225,255,225,0.3);
+            box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+            color: #fff;
+        }
+        form{
+            margin: 40px;
+        }
+        .submit{
+            width: 100px;
+            padding: 7px;
+            font-size: 18px;
+            color: #fff;
+            font-weight: 600;
+            border-radius: 3px;
+            background-color: rgb(168, 3, 3);
+        }
+        h3{
+            text-align: center;
         }
     </style>
 </body>
